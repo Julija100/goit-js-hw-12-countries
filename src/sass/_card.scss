@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.js-card-container {
+  height: 500px;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  max-width: 200px;
+  margin: auto;
+}
+.card-body {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+h2 {
+  color: #938bad;
+}
+p {
+  padding: 4px;
+  font-size: 14px;
+  color: #757575;
+}
+.list-group {
+  padding: 4px;
+  font-size: 14px;
+  color: #757575;
+  list-style-type: none;
+}
+
+.title,
+.input {
+  margin: auto;
+}

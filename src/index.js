@@ -1,25 +1,15 @@
 import './sass/main.scss';
+// import countryCard from './country_card.hbs';
 
-const getCountries = fetch('https://restcountries.eu/rest/v2/all')
-  .then(response => {
-    return response.json();
-  })
-  .then(country => {
-    console.log(country);
-  })
-  .catch(error => {
-    console.log(error);
-  });
-
-// function fetchCountries(searchQuery) {
-//   fetch('https://restcountries.eu/rest/v2/all')
-//     .then(response => {
-//       return response.json();
-//     })
-//     .then(country => {
-//       console.log(country);
-//     })
-//     .catch(error => {
-//       console.log(error);
-//     });
-// }
+// fetch('https://restcountries.eu/rest/v2/name/eesti')
+//   .then(response => {
+//     return response.json();
+//   })
+//   .then(country => {
+//     console.log(country);
+//     const markup = countryCard(country);
+//     console.log(markup);
+//   })
+//   .catch(error => {
+//     console.log(error);
+//   });
