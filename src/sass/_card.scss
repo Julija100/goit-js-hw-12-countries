@@ -3,9 +3,12 @@
   margin: 0;
 }
 .js-card-container {
+  display: none;
   height: 500px;
 }
-
+.js-list-container {
+  display: none;
+}
 img {
   width: 100%;
 }
@@ -36,7 +39,14 @@ p {
   list-style-type: none;
 }
 
-.title,
-.input {
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   margin: auto;
+  gap: 8px;
+}
+
+.country-input {
+  width: 300px;
 }

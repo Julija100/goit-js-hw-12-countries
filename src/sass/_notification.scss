@@ -1,0 +1,20 @@
+.pnotify {
+  position: absolute;
+  margin: 20px;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  display: block;
+  background-color: #fff;
+  background-repeat: repeat-y;
+  background-size: 100% 88px;
+  background-position: 0% 0%;
+  background-image: repeating-linear-gradient(
+    -25deg,
+    #df5646 20px,
+    #df5646 40px,
+    rgb(215, 134, 134) 40px,
+    rgb(215, 134, 134) 60px
+  );
+  animation: barberpole 4s linear infinite;
+}

@@ -1,19 +1,16 @@
-
-    <div class="card">
-        <div class="card-img">
-            <img src="{{0.flag}}" alt="{{0.name}}">
-        </div>
+<div class="card">
+    <div class="card-img">
+        <img src="{{flag}}" alt="{{name}}">
     </div>
-    
-        <div class="card-body">
-            <h2 class="card-title">{{0.name}}</h2>
-            <p class="card-text">Capital: {{0.capital}}</p>
-            <p class="card-text">Population: {{0.population}}</p>
-            <p class="card-text">Languages:</p>
-            <ul class="list-group">
-                <li class="list-group-item">{{0.languages.0.name}}</li>
-            </ul>
-        </div>
-   
+</div>
 
-
+<div class="card-body">
+    <h2 class="card-title">{{name}}</h2>
+    <p class="card-text">Capital: {{capital}}</p>
+    <p class="card-text">Population: {{population}}</p>
+    <p class="card-text">Languages:</p>
+    <ul class="list-group">
+        {{!-- // TODO add support multiple langueges --}}
+        <li class="list-group-item">{{languages.0.name}}</li>
+    </ul>
+</div>
